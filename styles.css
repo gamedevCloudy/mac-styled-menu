@@ -1,0 +1,167 @@
+*
+{
+    box-sizing: border-box;
+    color: floralwhite; 
+    font-family: Roboto, sans-serif;
+}
+body{
+    padding: 0; 
+    margin: 0; 
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    
+}
+
+.gradient
+{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background: radial-gradient( 
+        circle at top left, 
+        #fafafa,
+        rgb(177, 0, 177),  
+        rgb(79, 79, 235), 
+        rgb(61, 100, 61));
+}
+.background
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+    opacity: 30%;
+    filter: blur(8px);
+}
+
+.menu-container
+{
+    content: ""; 
+    position: absolute;
+    width: 50%; 
+    height: 80%;
+    display: flex;
+    box-shadow: 4px 4px  20px black;
+    top: 10%; 
+    left: 10%; 
+    border: 1px solid grey; 
+    border-radius: 8px;
+}
+.menu-left
+{
+    border-radius: 8px 0 0 8px;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+}
+
+.buttons
+{
+    display: flex;
+    gap: 5px; 
+    padding: 16px 16px; 
+}
+
+.circle
+{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.circle:nth-of-type(1)
+{
+    background-color: #ff5f57;
+}
+.circle:nth-of-type(2)
+{
+    background-color: #febc2e;
+}
+.circle:nth-of-type(3)
+{
+    background-color: #28c840;
+}
+
+.menu-right
+{
+    width: 70%;
+    border-radius: 0 8px 8px 0;
+    background-color: #2e2c37;
+}
+
+
+.header
+{
+    padding: 16px 16px; 
+    display: flex;
+}
+.hw50
+{
+    width: 32px; 
+    height: 32px; 
+    background-color: rgb(255, 195, 255);
+    border-radius: 50%;
+}
+
+
+.thick
+{
+    font-weight: 400;
+    
+    padding: 0;
+    margin: 0 4px; 
+}
+
+.sub-thick
+{
+    margin: 0 4px; 
+    font-weight: 300;
+    font-size: .75rem;
+    padding: 0;
+    opacity: 70%;
+}
+
+.thick-t1
+{
+    font-weight: 400;
+    
+    padding: 0;
+    margin: 0 4px;    
+}
+.section
+{
+    padding: 16px 16px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.option
+{
+    display: flex;
+    padding: 4px 0px; 
+}
+
+.icon
+{
+    content: ""; 
+    background-color: rgb(42, 131, 255);
+    width: 24px;
+    height: 24px;
+    /* position: relative; */
+    border-radius: 20%;
+}
+.icon p{
+    
+    margin: 0 auto; 
+    padding: 3px 3px; 
+}
+.option .text
+{
+    margin: 2px 0; 
+}
+
+.gap
+{
+    margin: 16px 16px; 
+}
+
